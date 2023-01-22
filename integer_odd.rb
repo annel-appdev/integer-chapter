@@ -9,4 +9,11 @@
 #   12
 #   false
 
-p "Enter an odd number:"
+p "Enter an odd number:" 
+p = gets
+puts p.to_i.odd?
+
+
+
+
+
